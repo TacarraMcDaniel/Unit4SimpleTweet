@@ -53,10 +53,10 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.Viewholder
     }
 
     public class Viewholder extends RecyclerView.ViewHolder{
-
         ImageView ivProfileImage;
         TextView tvBody;
         TextView tvScreenName;
+        TextView tvTimestamp;
 
 
         public Viewholder(@NonNull View itemView) {
@@ -64,6 +64,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.Viewholder
             ivProfileImage = itemView.findViewById(R.id.ivProfileImage);
             tvBody = itemView.findViewById(R.id.tvBody);
             tvScreenName = itemView.findViewById(R.id.tvScreenName);
+            tvTimestamp = itemView.findViewById(R.id.tvTimestamp);
         }
 
         public void bind(Tweet tweet) {
