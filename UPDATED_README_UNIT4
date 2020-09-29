@@ -43,13 +43,19 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://i.imgur.com/3AbBQtt.gif
+https://i.imgur.com/bn9tJNK.gif
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+My twitter app was working fine but it looked really plain. In attempts to fix that I added some twitter colors and a splash page. 
+However, I am continuously sent to Oauth Call Back successful page. It tells me to exit out and proccedd to the app but every time
+the successful callback page reappears. I am not sure what I did wrong and I am tired of crying over it.
+
 
 ## Open-source libraries used
 
